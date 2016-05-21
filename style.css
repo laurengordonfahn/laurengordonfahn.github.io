@@ -15,20 +15,59 @@ h1 {
 	 margin: 40px;
 }
 
+
+.bold_border {
+	border: solid orange 30px;
+}
+
 /* footer should be centered*/
+	body {
+	margin: 0;
+	padding: 0;
+}
+
+/*I don't feel this worked visually but it checks out*/
+@media screen and (max-width: 480px){
+
+	 body {
+		width: 20%;
+
+	}
+		
+}
+
 footer {
-	 display: inline;
 	 margin: auto;
 	 width: 100%;
-
+	 position: relative;
+	 left: 50%;
+	 padding: 50%;
 }
 
 /*paragraph should have a background image and a border*/
 p { 
-	border-width: medium;
-	border-color: orange;
+	
+	border: medium solid orange;
 	padding: 10px;
-	background-image: logo.png;
-	opacity: 0.2;
+	/*This element not working need help*/
+	background-image: src="logo.jpg";
+	background-image opacity: 0.2;
+	font-family: sans-serif;
+	
 }
+
+#number {
+	font-size: 40px;
+}
+
+a:link {
+	color: pink;
+	background: white;
+}
+
+a:visited { 
+	color: green;
+	background: white;
+}
+
 
