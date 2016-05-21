@@ -1,0 +1,31 @@
+/* header should be red, have a boder and padding*/
+header { 
+	color: red;
+	border-width: medium;
+	border-color: orange;
+	padding: 10px;
+
+}
+
+/* h1 should have a margin*/
+h1 {
+	 margin: 40px;
+}
+
+/* footer should be centered*/
+footer {
+	 display: inline;
+	 margin: auto;
+	 width: 100%;
+
+}
+
+/*paragraph should have a background image and a border*/
+p { 
+	border-width: medium;
+	border-color: orange;
+	padding: 10px;
+	background-image: logo.png;
+	opacity: 0.2;
+}
+
